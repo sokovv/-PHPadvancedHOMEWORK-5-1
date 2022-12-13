@@ -1,0 +1,28 @@
+{
+    "name": "valera/hm5.1",
+    "autoload": {
+        "psr-4": {
+            "Valera\\Hm51\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./bin/phpunit --coverage-html coverage --coverage-clover coverage.xml"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Valera Sokolov",
+            "email": "komproekt42@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "phpdocumentor/reflection": "^5.3",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpunit/php-code-coverage": "^9.2"
+    },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
